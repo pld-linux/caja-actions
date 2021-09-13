@@ -87,6 +87,7 @@ rm -rf $RPM_BUILD_ROOT
 
 # not supported by glibc (2.34)
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ie,ku_IQ}
+%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/help/{ie,ku_IQ}
 
 # caja-actions gettext domain, caja-actions-config-tool help
 %find_lang %{name} --with-mate --all-name
