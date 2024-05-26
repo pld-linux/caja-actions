@@ -1,18 +1,18 @@
 Summary:	Caja file manager extension to launch programs through the popup menu of selected files
 Summary(pl.UTF-8):	Rozszerzenie zarządcy plików Caja do uruchamiania programów poprzez menu dla wybranych plików
 Name:		caja-actions
-Version:	1.26.0
+Version:	1.28.0
 Release:	1
 License:	GPL v2+ (code), FDL v1.3+ (help)
 Group:		X11/Applications
-Source0:	https://pub.mate-desktop.org/releases/1.26/%{name}-%{version}.tar.xz
-# Source0-md5:	bc708b6f077008bf93a7442e800e2ee4
+Source0:	https://pub.mate-desktop.org/releases/1.28/%{name}-%{version}.tar.xz
+# Source0-md5:	814ecebe620b352f19235d69f59a6336
 URL:		https://wiki.mate-desktop.org/mate-desktop/components/caja-actions/
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake >= 1:1.9
 BuildRequires:	caja-devel >= 1.17.1
 BuildRequires:	gettext-tools >= 0.19.8
-BuildRequires:	glib2-devel >= 1:2.32.1
+BuildRequires:	glib2-devel >= 1:2.66.0
 BuildRequires:	gtk+3-devel >= 3.10
 BuildRequires:	libgtop-devel >= 1:2.23.1
 BuildRequires:	libtool
@@ -28,7 +28,7 @@ BuildRequires:	xz
 BuildRequires:	yelp-tools
 Requires(post,postun):	gtk-update-icon-cache
 Requires:	caja >= 1.17.1
-Requires:	glib2 >= 1:2.32.1
+Requires:	glib2 >= 1:2.66.0
 Requires:	gtk+3 >= 3.10
 Requires:	hicolor-icon-theme
 Requires:	libgtop >= 1:2.23.1
@@ -50,7 +50,7 @@ rozwijane menu dla wybranych plików w zarządcy plików.
 Summary:	Caja-Actions extension interface
 Summary(pl.UTF-8):	Interfejs rozszerzeń Caja-Actions
 Group:		Development/Libraries
-Requires:	glib2-devel >= 1:2.32.1
+Requires:	glib2-devel >= 1:2.66.0
 # doesn't require base
 
 %description devel
